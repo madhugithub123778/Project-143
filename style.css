@@ -1,0 +1,87 @@
+body
+{
+background-position: center;background-repeat: no-repeat;background-size: cover;
+}
+
+.heading{
+    width: 100%; text-align: left;font-family: 'Trebuchet MS';text-shadow: 3px 3px 10px rgb(0, 75, 122);height: 90px;padding-top: 25px;box-shadow: 10px 10px 22px rgb(0, 247, 255);
+    
+    
+    }
+    
+    .heading h3{
+        font-weight: bold;font-size: 28px;display: inline;background-color: lightskyblue;padding: 15px;
+        ;border: 3px ridge navy;border-radius: 20px;
+    }
+    
+    .heading button{
+    float: right; font-size: 17px;box-shadow: 5px 5px 10px rgb(0, 255, 21);border: 3px solid darkgreen;
+    
+    
+    }
+
+    #start{
+        width: 210px;height: 50px;font-size: 22px;background-color: rgb(72, 255, 255);font-family: 'Courier';font-weight: bold;border: 4px dotted navy;color: navy;
+        transition-duration: 0.8s;border-radius: 20px;
+        
+        }
+        
+        #start:hover{
+        background-color: navy;color:rgb(72, 255, 255); border-color: rgb(72, 255, 255);
+        
+        
+        }
+
+ #status{
+ font-size: 20px;font-family: 'Courier';border: 5px dotted orangered;color: black;
+            
+            
+            }
+ #status_game{
+background-color: white;color: red;font-size: 22px; transition-duration: 0.7s;padding: 3px;border-radius: 5px;font-family: 'Trebuchet MS';
+                
+                
+}
+                
+#status_game:hover{
+background-color: red;color: white;
+                
+                
+}
+
+.modal-dialog{
+width: 90%;
+
+
+}
+
+#reStart{
+    width: 180px;height: 50px;font-size: 22px;background-color: rgb(255, 238, 83);font-family: 'Courier';font-weight: bold;border: 4px dotted rgb(255, 1, 1);color: rgb(255, 1, 1);
+    transition-duration: 0.8s;border-radius: 20px;
+
+
+}
+
+#reStart:hover{
+    background-color: red;color:rgb(255,238,83); border-color:rgb(255,238,83);
+    
+    
+    }
+
+    .footer{
+        text-align: center; 
+        bottom: 0; 
+        position: sticky; 
+        width: 100%;
+        background-color: navy;
+        color: white;
+        font-family: 'Trebuchet MS';
+        line-height: 2.5;
+        font-size: 18px;
+        
+        
+        }
+canvas{
+border: 7px outset slateblue;
+border-radius: 20px;
+}
